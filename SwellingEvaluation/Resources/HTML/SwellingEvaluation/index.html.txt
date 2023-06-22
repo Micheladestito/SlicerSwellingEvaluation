@@ -1,0 +1,90 @@
+<h2>Swelling Evaluation modules:</h2>
+
+<h3><a href="#Transforms">Linear Transform</a></h3>
+
+<p>
+   <b>Aim</b>: To perform a manual approximation of the CBCT scans.
+</p>
+<p>
+  <b>Clinical Relevance</b>: Standardized orientation of the CBCT scans
+Reference planes:
+<br>-	Midsagittal plane;
+<br>-	Frankfurt plane.
+
+</p>
+
+<h3><a href="#ApplyMatrix">Apply Matrix (CMF Registration)</a></h3>
+<p>
+     <b>Aim</b>: To apply the matrix of the modified orientation to the CBCT scans.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Standardized orientation of the initial facial scan
+</p>
+<h3><a href="#SegmentEditor">Segment Editor</a></h3>
+<p>
+    <b>Aim</b>: To obtain the segmentation of specific structures from the CBCT scans.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Segmentation of the soft tissues from the CBCT scans.
+</p>
+<h3><a href="#EasyClip">Easy Clip</a></h3>
+<p>
+     <b>Aim</b>: To define the precise boundaries of the facial scans.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Removal of anatomical structures not included in the middle and the lower facial third.
+Reference planes:
+<br>-	Midsagittal plane;
+<br>-	Plane perpendicular to midsagittal plane and under the zygomatic arch.
+
+</p>
+<h3><a href="#SurfaceRegistration">Surface Registration</a></h3>
+<p>
+     <b>Aim</b>: To automatically register the moving model to the fixed model (used as guidance).
+</p>
+
+<p>
+     <b>Clinical Relevance</b>: Registration of facial scans (T1 and T2) on the oriented facial scan (T0).
+</p>
+<h3><a href="#ModelToModelDistance">Model To Model Distance</a></h3>
+<p>
+    <b>Aim</b>: To automatically generate the colormap subtracting the T0 model to the T1 and T2, respectively, and the T1 model to the T2 one.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Creation of the colormap:
+<br>-	T0-T1
+<br>-	T1-T2
+<br>-	T0-T2
+
+</p>
+<h3><a href="#ShapePopulationViewer">Shape Population Viewer</a></h3>
+<p>
+      <b>Aim</b>: To perform the qualitative after setting the values in the colorbar.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Visualization of the swelling discrepancies recorded in each colormap.
+</p>
+
+<h3><a href="#PickAndPaint">Pick'n Paint</a></h3>
+<p>
+    <b>Aim</b>: To select the region of interest.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Identification of the region interested by any post-operative modifications in swelling.
+</p>
+
+<h3><a href="#MeshStatistics">Mesh Statistics</a></h3>
+<p>
+   <b>Aim</b>: To automatically quantify the discrepancies recorded by the colormap.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Automated linear quantification of the post-operative facial swelling.
+</p>
+<h3><a href="#MeshVolumeComparison">Mesh Volume Comparison</a></h3>
+<p>
+   <b>Aim</b>: To automatically close the meshes and calculate each volume and the differential volume of two meshes.
+</p>
+<p>
+     <b>Clinical Relevance</b>: Automated volumetric quantification of the post-operative facial swelling.
+</p>
+
