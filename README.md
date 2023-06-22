@@ -5,7 +5,6 @@ The main module is ArduinoConnect, but several side extensions were developed fo
 
 ## Developers
 
-### Faculty
 Michela Destito (Universita’ degli Studi “Magna Græcia” di Catanzaro, Italy)
 
 Selene Barone (Universita’ degli Studi “Magna Græcia” di Catanzaro, Italy)
